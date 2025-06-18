@@ -1,0 +1,77 @@
+{
+  "workbench.iconTheme": "symbols",
+  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": false,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.indent": 18,
+  "editor.guides.bracketPairs": true,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none"
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.confirmSync": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "explorer.confirmPasteNative": false,
+  "editor.cursorBlinking": "smooth",
+  "window.commandCenter": false,
+  "editor.minimap.autohide": true,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.reduceMotion": "off",
+  "terminal.integrated.smoothScrolling": true,
+  "explorer.confirmDelete": false,
+  "cSpell.userWords": [
+    "commissionable",
+    "internova",
+    "LLSRS",
+    "marriot",
+    "PCCS",
+    "Pnrs",
+    "retur",
+    "serandipians",
+    "tkts",
+    "uncategorized",
+    "Voeja",
+    "VOEJAUS"
+  ],
+  "editor.accessibilitySupport": "off",
+  "git.autofetch": true,
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "workbench.colorTheme": "Min Dark",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "editor.suggest.showStatusBar": true,
+  "diffEditor.maxComputationTime": 0
+}
