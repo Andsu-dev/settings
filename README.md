@@ -7,6 +7,7 @@ This repository contains my personal development environment configurations and 
 - **`extensions.md`** - List of my IDE extensions with descriptions
 - **`user-setting.json`** - My IDE user settings and preferences
 - **`config.fish`** - My Fish shell configuration
+- **`iTerm2.json`** - My iTerm2 terminal configuration and preferences
 
 ## 🛠️ Setup
 
@@ -38,6 +39,15 @@ The `config.fish` file contains my Fish shell setup with:
 - Aliases and functions
 - Environment variables
 - Shell customizations
+
+### Terminal Configuration
+
+The `iTerm2.json` file contains my iTerm2 terminal preferences including:
+- Color schemes and themes
+- Font settings and appearance
+- Window and tab configurations
+- Keyboard shortcuts and profiles
+- Integration settings
 
 ## 🔧 Usage
 
