@@ -1,8 +1,8 @@
 {
   "workbench.iconTheme": "symbols",
   "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
-  "editor.rulers": [80, 120],
+  "editor.fontSize": 11,
+  "editor.rulers": [],
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": false,
   "workbench.editor.labelFormat": "short",
@@ -27,20 +27,23 @@
     "source.fixAll.biome": "explicit",
     "source.organizeImports.biome": "explicit"
   },
-  "editor.defaultFormatter": "biomejs.biome",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "files.autoSave": "onFocusChange",
   "explorer.confirmDragAndDrop": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "git.confirmSync": false,
   "[javascript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
   },
   "explorer.confirmPasteNative": false,
   "editor.cursorBlinking": "smooth",
@@ -70,8 +73,24 @@
   "editor.accessibilitySupport": "off",
   "git.autofetch": true,
   "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Vesper",
   "terminal.integrated.sendKeybindingsToShell": true,
   "editor.suggest.showStatusBar": true,
-  "diffEditor.maxComputationTime": 0
+  "diffEditor.maxComputationTime": 0,
+  "symbols.hidesExplorerArrows": false,
+  "editor.wordWrap": "on",
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.titleBarStyle": "custom",
+  "workbench.sideBar.location": "right",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "workbench.editor.showTabs": "single",
+  "editor.renderWhitespace": "none",
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.matchBrackets": "never",
+  "aws.cloudformation.telemetry.enabled": true
 }
