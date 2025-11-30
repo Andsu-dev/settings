@@ -8,7 +8,7 @@
   "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": false,
-  "workbench.tree.indent": 18,
+  "workbench.tree.indent": 10,
   "editor.guides.bracketPairs": true,
   "apc.electron": {
     "titleBarStyle": "hiddenInset"
@@ -19,6 +19,7 @@
   "apc.listRow": {
     "height": 24
   },
+  "window.zoomLevel": 0.5,
   "editor.formatOnType": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -88,9 +89,10 @@
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.showTabs": "single",
   "editor.renderWhitespace": "none",
-  "window.menuBarVisibility": "toggle",
   "editor.minimap.enabled": false,
   "editor.selectionHighlight": false,
   "editor.matchBrackets": "never",
-  "aws.cloudformation.telemetry.enabled": true
+  "aws.cloudformation.telemetry.enabled": true,
+  "cursor.composer.textSizeScale": 0.85,
+  "window.menuBarVisibility": "compact"
 }
