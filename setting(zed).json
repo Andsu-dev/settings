@@ -1,0 +1,133 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+// {
+//   "ui_font_size": 15,
+//   "buffer_font_size": 13,
+//   "theme": {
+//     "mode": "system",
+//     "light": "One Light",
+//     "dark": "One Dark",
+//   },
+// }
+//
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "theme": "Vesper",
+  "icon_theme": "Zed (Default)",
+
+  "buffer_font_family": "JetBrains Mono, Menlo, Monaco, Courier New, monospace",
+  "buffer_font_size": 11,
+
+  "buffer_font_features": {
+    "calt": false,
+  },
+
+  "current_line_highlight": "gutter",
+
+  "soft_wrap": "editor_width",
+  "show_wrap_guides": false,
+  "wrap_guides": [],
+
+  "scrollbar": {
+    "show": "never",
+  },
+
+  "minimap": {
+    "show": "never",
+  },
+
+  "toolbar": {
+    "breadcrumbs": false,
+  },
+
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+
+  "selection_highlight": false,
+
+  "gutter": {
+    "line_numbers": true,
+    "runnables": false,
+    "breakpoints": false,
+    "folds": false,
+  },
+
+  "project_panel": {
+    "dock": "right",
+    "auto_fold_dirs": false,
+  },
+
+  "agent": { "dock": "left" },
+
+  "title_bar": {
+    "show_menus": false,
+  },
+
+  "languages": {
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": [
+        { "code_action": "source.fixAll.biome" },
+        { "code_action": "source.organizeImports.biome" },
+        {
+          "external": {
+            "command": "prettier",
+            "arguments": ["--stdin-filepath", "{buffer_path}"],
+          },
+        },
+      ],
+    },
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": [
+        { "code_action": "source.fixAll.biome" },
+        { "code_action": "source.organizeImports.biome" },
+        {
+          "external": {
+            "command": "prettier",
+            "arguments": ["--stdin-filepath", "{buffer_path}"],
+          },
+        },
+      ],
+    },
+    "TSX": {
+      "format_on_save": "on",
+      "formatter": [
+        { "code_action": "source.fixAll.biome" },
+        { "code_action": "source.organizeImports.biome" },
+        {
+          "external": {
+            "command": "prettier",
+            "arguments": ["--stdin-filepath", "{buffer_path}"],
+          },
+        },
+      ],
+    },
+    "Go": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+    },
+  },
+}
